@@ -46,6 +46,7 @@ class WebWalletProviderStrategy implements IProviderStrategy {
         } else {
             this._lastStatus = undefined;
         }
+        return !!address
     }
 
     get lastStatus() {
